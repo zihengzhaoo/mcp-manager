@@ -1,7 +1,3 @@
-# ISSUE
-## **Description**
-Abastract
-## Install
 1. Install the Gemini CLI
 ```bash
 npm install -g @google/gemini-cli
@@ -13,19 +9,7 @@ npm install -g @google/gemini-cli
         ```
       * Verify the installation by running `gemini mcp list`.
     * Option 2 - Add the MCP server config manually to your `~/.gemini/settings.json` file.
-        ```json
-        {
-          "mcpServers": {
-            "google-maps-platform-code-assist": {
-              "command": "npx",
-              "args": ["-y", "@googlemaps/code-assist-mcp@latest"],
-              "env": {
-                 "AMAP_MAPS_API_KEY": "您在高德官网上申请的key"
-               } 
-            }
-          }
-        }
-        ```
+
 ## Sample Prompts
 Use these example prompts to get started with the Code Assist MCP server or supported AI agents:
 - Show me how to use the Routes API in Node.js.
