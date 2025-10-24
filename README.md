@@ -13,3 +13,15 @@ npm install -g @google/gemini-cli
 ## Sample Prompts
 Use these example prompts to get started with the Code Assist MCP server or supported AI agents:
 - Show me how to use the Routes API in Node.js.
+
+
+```json
+{
+ "mcpServers": {
+   "google-maps-platform-code-assist": {
+     "command": "npx",
+     "args": ["-y", "@googlemaps/code-assist-mcp@latest"]
+   }
+ }
+}
+```
